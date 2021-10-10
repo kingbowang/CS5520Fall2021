@@ -128,10 +128,8 @@ public class ActivityLinkCollector extends AppCompatActivity {
 
     private void createRecyclerView() {
         rLayoutManager = new LinearLayoutManager(this);
-
         recyclerView = findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
-
         recyclerAdapter = new RecyclerAdapter(itemList);
         ItemClickListener itemClickListener = new ItemClickListener() {
 

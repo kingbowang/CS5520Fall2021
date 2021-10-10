@@ -25,7 +25,6 @@ public class ActivityLocator extends AppCompatActivity implements LocationListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_locator);
-
         text = (TextView) findViewById(R.id.curLocation);
         button = (Button) findViewById(R.id.locationButton);
 

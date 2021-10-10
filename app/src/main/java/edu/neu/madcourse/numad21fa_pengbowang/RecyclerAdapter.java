@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerHolder> {
-
     private final ArrayList<ItemCard> itemList;
     private ItemClickListener listener;
 

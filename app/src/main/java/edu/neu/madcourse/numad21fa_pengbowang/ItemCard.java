@@ -3,7 +3,6 @@ package edu.neu.madcourse.numad21fa_pengbowang;
 import android.content.Context;
 
 public class ItemCard implements ItemClickListener {
-
     private final String linkName;
     private final String linkURL;
 
