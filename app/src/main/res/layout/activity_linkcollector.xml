@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="336dp"
-        android:text="Click + to add url link \nSwipe to delete link"
+        android:text="@string/click_to_add_url_link_nswipe_to_delete_link"
         app:layout_constraintBottom_toTopOf="@id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -42,7 +42,8 @@
         android:focusable="true"
         app:layout_constraintStart_toStartOf="@id/guideline3"
         app:layout_constraintTop_toBottomOf="@id/guideline2"
-        app:srcCompat="@android:drawable/ic_input_add" />
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:ignore="RtlHardcoded" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"

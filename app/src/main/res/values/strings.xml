@@ -28,4 +28,5 @@
     <string name="link_collector">Link Collector</string>
     <string name="activity_main_locator">Locator</string>
     <string name="location">Your current location:</string>
+    <string name="click_to_add_url_link_nswipe_to_delete_link">Click + to add url link \nSwipe to delete link</string>
 </resources>
