@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.neu.madcourse.numad21fa_pengbowang">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher_pw"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_pw_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NUMAD21Fa_PengboWang">
+        <activity
+            android:name=".ActivityLocator"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ActivityLinkCollector"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".ActivityClicky"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/enter_new_url"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog"
+        android:hint="@string/enter_the_name_here"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/inputUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputName"
+        android:hint="@string/enter_the_url_link_here"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputUrl"
+
+        android:layout_marginTop="2dp"
+        android:clickable="true"
+        android:text="@string/Cancel"
+        android:textAllCaps="false"
+        android:textColor="#FFEB3B" />
+
+    <Button
+        android:id="@+id/btn_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/inputUrl"
+
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        android:text="@string/Add"
+        android:textAllCaps="false"
+        android:textColor="#FFEB3B" />
+
+
+</RelativeLayout>

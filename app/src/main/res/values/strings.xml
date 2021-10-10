@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">NUMAD21Fa_PengboWang</string>
+    <string name="about_me">About Me</string>
+    <string name="clicky_clicky">Clicky Clicky</string>
+    <string name="PressedA">Pressed: A</string>
+    <string name="PressedB">Pressed: B</string>
+    <string name="PressedC">Pressed: C</string>
+    <string name="PressedD">Pressed: D</string>
+    <string name="PressedE">Pressed: E</string>
+    <string name="PressedF">Pressed: F</string>
+    <string name="NoPressed">Pressed: -</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="pressed">Pressed: -</string>
+    <string name="add_link">add link</string>
+    <string name="item_name">item name</string>
+    <string name="item_description">item description</string>
+    <string name="enter_new_url">Enter new URL</string>
+    <string name="enter_the_name_here">Enter the link name here</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Add">Add</string>
+    <string name="enter_the_url_link_here">Enter the url link here</string>
+    <string name="locator">Location Getter</string>
+    <string name="link_collector">Link Collector</string>
+    <string name="activity_main_locator">Locator</string>
+    <string name="location">Your current location:</string>
+</resources>
