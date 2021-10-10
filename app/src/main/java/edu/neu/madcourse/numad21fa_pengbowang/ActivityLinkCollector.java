@@ -86,9 +86,7 @@ public class ActivityLinkCollector extends AppCompatActivity {
                     Snackbar.make(findViewById(R.id.fabAdd), "Add link", Snackbar.LENGTH_LONG).show();
                     myDialog.cancel();
                 } else {
-                    Toast toast = Toast.makeText(ActivityLinkCollector.this, "Link format is wrong!", Toast.LENGTH_SHORT);
-                    toast.setGravity(Gravity.TOP, 0, 0);
-                    toast.show();
+                    Snackbar.make(findViewById(R.id.fabAdd), "Link format is wrong!", Snackbar.LENGTH_LONG).show();
                 }
             }
         });
