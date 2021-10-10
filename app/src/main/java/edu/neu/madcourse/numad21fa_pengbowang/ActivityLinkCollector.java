@@ -71,12 +71,9 @@ public class ActivityLinkCollector extends AppCompatActivity {
         Dialog myDialog = new Dialog(this);
         myDialog.setContentView(R.layout.dialog);
         myDialog.setCancelable(false);
-
         Button btnAdd = (Button) myDialog.findViewById(R.id.btn_Add);
-
         urlName = myDialog.findViewById(R.id.inputName);
         urlLink = myDialog.findViewById(R.id.inputUrl);
-
         myDialog.show();
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
