@@ -29,4 +29,9 @@
     <string name="activity_main_locator">Locator</string>
     <string name="location">Your current location:</string>
     <string name="click_to_add_url_link_nswipe_to_delete_link">Click + to add url link \nSwipe to delete link</string>
+    <string name="at_your_service">At Your Service</string>
+    <string name="online_movie_database">Online Movie Database</string>
+    <string name="search">Search</string>
+    <string name="loading">Loading...</string>
+    <string name="enter_the_movie">Enter the Movie:</string>
 </resources>
