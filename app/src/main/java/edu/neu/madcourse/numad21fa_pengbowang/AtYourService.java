@@ -100,7 +100,7 @@ public class AtYourService extends AppCompatActivity {
         movieDetailsView.setVisibility(View.INVISIBLE);
         if (searchTitle.getText().toString().isEmpty()) {
             resetData();
-            Snackbar snack = Snackbar.make(view, "Movie title required!", Snackbar.LENGTH_LONG).setAction("Action", null);
+            Snackbar snack = Snackbar.make(view, "Please enter the title of the movie!", Snackbar.LENGTH_LONG).setAction("Action", null);
             View snackView = snack.getView();
             TextView mTextView = snackView.findViewById(com.google.android.material.R.id.snackbar_text);
             mTextView.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
